@@ -1,0 +1,4 @@
+Presentyear = int(input("Enter your present year")
+Birthyear = int(input("Enter your Birth year")
+Age = (Presentyear - Birthyear)
+print(Age)
