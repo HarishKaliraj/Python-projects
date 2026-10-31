@@ -1,4 +1,9 @@
-Presentyear = int(input("Enter your present year"))
-Birthyear = int(input("Enter your birth year: "))
-Age = (Presentyear - Birthyear)
-print(Age)
+from datetime import datetime
+
+present_year = datetime.now().year
+
+birth_year = int(input("Enter your birth year: "))
+
+age = present_year - birth_year
+
+print("Your age is:", age)
